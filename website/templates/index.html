@@ -1,0 +1,496 @@
+<html>
+    <head>
+        {% load static %}
+        <title>  Software Training Center  </title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css">
+
+
+        
+        <!--Font style links from font google-->
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@1,200&family=Roboto:ital,wght@0,400;1,100;1,300;1,400&family=Shizuru&display=swap" rel="stylesheet">
+        
+        <!--Font style links from font google end-->
+
+        <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css">
+
+</head>
+
+<body>
+
+
+<!--Navbar start-->
+
+<nav style="background-color: #EE1D29;" class="navbar navbar-expand-sm fixed-top" style="background-color: #FF0018;">
+    <div class="container">
+    <a href="/" class="navbar-brand text-black "><i class="fab fa-python "></i>&nbsp; SOFTWARES:)<span style="color: green;">TRAINING</span> <span style="color: purple;"> CENTER</span></a>
+    <span class="navbar-text font-weight-bold blink"> Enjoy Programming </span>
+
+      
+      <!--Collasible button start-->
+<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myMenu">
+<span class="navbar-toggler-icon"></span>
+</button>
+      <!--Collasible button end-->
+
+<!--Navigation Links start-->
+
+<div class="collapse navbar-collapse" id="#myMenu">
+<ul class="navbar-nav ml-auto text-center">
+    <li class="nav-item ">
+        <a class="nav-link" href="#">Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#projects"> Projects</a>
+    </li>
+            
+    <li class="nav-item">
+        <a class="nav-link" href="#services"> Services</a>
+    </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"> Video Courses</a>
+           <div class="dropdown-menu" style="background-color: paleturquoise";>
+               <a class="dropdown-item" href="#courses">C Programming</a>
+               <a class="dropdown-item" href="#courses">Python Programming</a>
+               <a class="dropdown-item" href="#courses">django Projects</a>
+
+           </div>
+    </li>
+    <li class="nav-item">
+         <a class="nav-link" href="#contact"> Contact</a>
+    </li>
+             
+</ul>
+</div>
+    <!--Navigation Links end-->
+</div> 
+</nav>
+<!--Navbar end-->
+
+<!--Header Image start-->
+
+<header class="container-fluid banner-image" style="background-image: url({% static 'images/stc12.jpg' %}); margin-top: 69px;">
+    <span style="font-size: 24px; color: green; margin-top:15px;">Software House</span>
+
+</header>
+
+<!--Header Image end-->
+
+<!--Project Section Start-->
+
+<div class="container text-center mt-5" id="projects">
+    
+    <h1 class="text-center mt-5 font-weight-bold mainheading">Our Latest Projects</h1>
+    <div class="row mt-5">
+        <div class="col-sm-4 mb-4  projectdiv">
+            <a href="#"><i class="fab fa-php fa-10x" style="color: maroon;"></i></a>
+            <h4 class="mt-2" style="font-family: Castellar ; color: maroon;">PHP Projects</h4>
+        </div>
+
+        <div class="col-sm-4 mb-4  projectdiv">
+            <a href="#"><i class="fab fa-python fa-10x" style="color: maroon;"></i></a>
+            <h4 class="mt-2" style="font-family: Castellar ; color: maroon;">Python Projects</h4>
+        </div>
+
+        <div class="col-sm-4 mb-4  projectdiv">
+            <a href="#"><i class="fab fa-java fa-10x"  style="color: maroon;"></i></a>
+            <h4 class=" mt-2" style="font-family: Castellar ; color: maroon;">Java Projects</h4>
+        </div>
+
+    </div>
+</div>
+
+<!--Project Section end-->
+
+<!--Video Courses Section start-->
+
+<div class="container mt-5" id="courses">
+    <h1 class="text-center mt-5 font-weight-bold mainheading">Our Video Courses</h1>
+    <div class="row mt-5">
+        <div class="col-lg-6 zoom mb-4">
+             
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/9rbhQ02D-gE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+        </div>
+
+        <div class="col-lg-6">
+            
+            <h2 class="text-center text-warning mb-4">Learn C# Programming</h2>
+            <p class="px-3">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+            </p>
+            <p class="px-3">
+                 It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="row mt-5">
+        
+        <div class="col-lg-6">
+            
+            <h2 class="text-center mb-4" style="color: maroon;">Learn Java Programming</h2>
+            <p class="px-3">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+            </p>
+            <p class="px-3">
+                 It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+
+        </div>
+
+        <div class="col-lg-6 zoom mb-4">
+             
+            <iframe width="100%" height="300" src="https://www.youtube.com/embed/GL80ae70UEk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+        </div>
+
+    </div>
+
+</div>
+
+<!--Carousel Start-->
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+    
+    <!-- The slide show -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+          <div class="row mb-5">
+             <div class="col-lg-4 col-sm-4">
+                 <div class="box">
+
+                    <iframe width="100%" height="300" src="https://www.youtube.com/embed/cpsKzjltGCU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h2 style="color: maroon;">Informative Tutorial</h2>
+
+                </div>
+             </div>
+
+             <div class="col-lg-4 col-sm-4">
+                <div class="box">
+
+                    <iframe width="100%" height="300" src="https://www.youtube.com/embed/GL80ae70UEk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   <h2 style="color: maroon;">Java Tutorial</h2>
+                   
+                </div>
+             </div>
+
+             <div class="col-lg-4 col-sm-4">
+                <div class="box">
+
+                    <iframe width="100%" height="300" src="https://www.youtube.com/embed/G4bbSQQMm6c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h2 style="color: maroon;"> C++ Tutorial </h2>
+               
+                </div>
+             </div>
+
+
+          </div>  
+      </div>
+      
+      
+      <div class="carousel-item">
+        <div class="row mb-5">
+            <div class="col-lg-4 col-sm-4">
+                <div class="box">
+
+                   <iframe width="100%" height="300" src="https://www.youtube.com/embed/cpsKzjltGCU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   <h2 style="color: maroon;">Informative Tutorial</h2>
+
+               </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-4">
+               <div class="box">
+
+                   <iframe width="100%" height="300" src="https://www.youtube.com/embed/GL80ae70UEk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <h2 style="color: maroon;">Java Tutorial</h2>
+                  
+               </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-4">
+               <div class="box">
+
+                   <iframe width="100%" height="300" src="https://www.youtube.com/embed/G4bbSQQMm6c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   <h2 style="color: maroon;"> C++ Tutorial </h2>
+              
+               </div>
+            </div>
+
+
+         </div>  
+      </div>
+      
+      
+      <div class="carousel-item">
+        <div class="row mb-5">
+            <div class="col-lg-4 col-sm-4">
+                <div class="box">
+
+                   <iframe width="100%" height="300" src="https://www.youtube.com/embed/cpsKzjltGCU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   <h2 style="color: maroon;">Informative Tutorial</h2>
+
+               </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-4">
+               <div class="box">
+
+                   <iframe width="100%" height="300" src="https://www.youtube.com/embed/GL80ae70UEk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <h2 style="color: maroon;">Java Tutorial</h2>
+                  
+               </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-4">
+               <div class="box">
+
+                   <iframe width="100%" height="300" src="https://www.youtube.com/embed/G4bbSQQMm6c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   <h2 style="color: maroon;"> C++ Tutorial </h2>
+              
+               </div>
+            </div>
+
+
+         </div>  
+      </div>
+    </div>
+    
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+
+<!--Carousel end-->
+<!--Video Courses Section end-->
+
+
+<!--Services Section Start-->
+
+<div class="jumbotron mt-5" id="services" style="background-color: #EE1D29;">
+    
+    <div class="container">
+        <h1 class="mt-4 text-black text-center font-weight-bold" style="font-family: 'Roboto', sans-serif;">Our Services</h1>
+
+        <div class="row mt-4">
+            
+            <div class="col-lg-3 col-sm-6">
+               
+                <div class="card mb-2">
+                    
+                    <div class="card-body text-center">
+                        
+                        <img src="{% static 'images/webd.jpg' %}" width="100" height="100" class="card-img-top" style="border-radius: 100px;">
+                        <h4 class="card-title mt-2">Web&nbsp;&nbsp; Development </h4>
+                        <p class="card-text"> 
+                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-3 col-sm-6">
+               
+                <div class="card mb-2">
+                    
+                    <div class="card-body text-center">
+                        
+                        <img src="{% static 'images/webd1.jpg' %}" width="100" height="100" class="card-img-top" style="border-radius: 100px;">
+                        <h4 class="card-title mt-2">Python,Django Web Development </h4>
+                        <p class="card-text"> 
+                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-3 col-sm-6">
+               
+                <div class="card mb-2">
+                    
+                    <div class="card-body text-center">
+                        
+                        <img src="{% static 'images/webd2.jpg' %}" width="100" height="100" class="card-img-top" style="border-radius: 100px;">
+                        <h4 class="card-title mt-2">Python,Django Projects </h4>
+                        <p class="card-text"> 
+                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-3 col-sm-6">
+               
+                <div class="card mb-2">
+                    
+                    <div class="card-body text-center">
+                        
+                        <img src="{% static 'images/webd3.jpg' %}" width="100" height="100" class="card-img-top" style="border-radius: 100px;">
+                        <h4 class="card-title mt-2">Django E-Commerce Projects</h4>
+                        <p class="card-text"> 
+                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            
+            
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<!--Services Section End-->
+
+
+<!--Contact Section Start-->
+
+<header class="jumbotron" style="background-image: url({% static 'images/contact2.jpg' %});">
+
+    <h1 class="text-center mt-3 font-weight-bold mainheading " id="contact">Contact Us</h1>
+   <div class="row mt-5 mb-5">
+       
+    <div class="col-lg-3 col-sm-6 text-center">
+           
+            <h3 class="font-weight-bold" style="color: maroon;"><i class="fas fa-phone-square"></i> &nbsp;Contact Number</h3>
+            <p class="font-weight-bold mt-2 " style="font-size: 20px;"><a class="text-danger" href="tel:+92 3026566664">+92 3026566664</a></p>
+
+    </div>
+
+
+    <div class="col-lg-3 col-sm-6 text-center">
+           
+        <h3 class="font-weight-bold" style="color: maroon;"><i class="fa fa-envelope"></i> &nbsp;E Mail</h3>
+        <p class="font-weight-bold mt-2" style="font-size: 20px;"><a class="text-danger" href="mailto:aasiasattar76@gmail.com">aasiasattar76@gmail.com</a></p>
+
+    </div>
+
+
+    <div class="col-lg-3 col-sm-6 text-center">
+           
+        <h3 class="font-weight-bold" style="color: maroon;"><i class="fa fa-address-card"></i> &nbsp;Office Address</h3>
+        <p class="font-weight-bold mt-2" style="font-size: 20px;"><a class="text-danger" href="http://maps.google.com/maps?q=Pakistan+Rahim+Yar+Khan+Madina+Villaz">Softwares Trainning Center,Madina Villaz,RYK,Pakistan</a></p>       
+
+    </div>
+
+
+
+    <div class="col-lg-3 col-sm-6 text-center">
+           
+        <h3 class="font-weight-bold" style="color: maroon;"><i class="fa fa-clock-o"></i> &nbsp;Office Hours</h3>
+        <p class="font-weight-bold mt-2 text-danger" style="font-size: 20px;"> 10:00 AM to 7:00 PM</p>
+
+    </div>
+
+  </div>
+
+</header>
+
+</header>
+<!--Contact Section End-->
+
+
+<!--Footer Section Start-->
+
+<footer class="container-fluid text-white mt-1" style="background-color: black; border-top:3px solid #EE1D29;">
+    <div class="container">
+        <div class="row py-4">
+            <div class="col-md-6">
+              <span>Follow Us : &nbsp;</span>
+              <a href="http://www.facebook.com" class="design" target="_blank"><i class="fab fa-facebook-f pr-3"></i></a>
+              <a href="http://www.twitter.com" target="_blank" class="design"><i class="fab fa-twitter pr-3"></i></a>
+              <a href="http://www.youtube.com" target="_blank" class="design"><i class="fab fa-youtube pr-3"></i></a>
+              <a href="http://www.instagram.com" target="_blank" class="design"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="col-md-6">
+                <small>copyright &copy; <script>document.write(new Date() .getFullYear());</script> All Rights Reserved | This website is made with <i class="fas fa-heart text-warning"></i> by<br> <span class="glow">aasia sattar</span> </small>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--For arrow button-->
+    <div  class="scrolltop float-right">
+        <i onclick="topFunction()" class="fa fa-arrow-up" id="scrollbtn"></i>
+
+    </div>
+
+</footer>
+
+<!--Footer Section End-->
+<!--For a scroll top button-->
+<script>
+     scrollbutton = document.getElementById("scrollbtn");
+     window.onscroll = function() {scrollFunction()};
+     function scrollFunction() {
+        if(document.body.scrollTop > 20)
+        {
+            scrollbutton.style.display = "block";
+        }
+        else {
+            scrollbutton.style.display = "none";
+        }
+    }
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+<!--For a scroll top button End-->
+
+<!--This script is used for active navbar icon -->
+<script>
+
+    $("a.nav-link") .click(function(){
+    $("a.nav-link") .css("background-color","");
+    $(this).css("background-color","purple");
+    $(this).css("border-radius","20px");
+    });
+</script>
+
+</body>
+
+</html>
